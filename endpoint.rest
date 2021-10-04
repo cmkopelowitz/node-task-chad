@@ -1,0 +1,1 @@
+POST http://localhost:8080/?first_name=Leo&last_name=Santos&email="hi@gmail.com"&occupation=developer

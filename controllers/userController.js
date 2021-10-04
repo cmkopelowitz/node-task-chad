@@ -32,7 +32,10 @@ async function addUser(req, res){
     if (err) {
       console.log(err);
     } else {
-      res.status(200);
+      res.json({
+        "message": `User: ${results._id} has been added`,
+        "staus": 200
+      });
     }
   });
 }
